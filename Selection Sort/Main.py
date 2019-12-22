@@ -6,29 +6,25 @@
     Version: 1.0
     Python Version: 2.7
 """
+import time
+
+import Swap
 
 arrayLength = 0
 numberArray = list()
-
-
-# Swap function for swaping the index in the array
-def swap(array, index, number):
-    swapObject = array[index]
-    array[index] = array[number]
-    array[number] = swapObject
-
 
 # Main selection sort function
 def selectionSort(numberList):
     for i in range(len(numberList)):
 
         minimumIndex = i
+        print("Minimum index: " + str(minimumIndex))
 
         for l in range(i + 1, len(numberList)):
             if numberList[minimumIndex] > numberList[l]:
                 minimumIndex = l
-
-        swap(numberList, i, minimumIndex)
+        print(numberArray)
+        Swap.startSwap(numberList, i, minimumIndex)
 
 
 arrayLength = int(input("How many numbers would you like sorting? "))
