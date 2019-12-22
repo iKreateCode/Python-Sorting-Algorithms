@@ -1,9 +1,9 @@
 """
-    File name: main.py
-    Description: An implementation of selection sort with user input
+    File name: main GUI.py
+    Description: An implementation of selection sort with a GUI
     Author: Emaz Khan
     Date created: 22/12/2019
-    Version: 1.0
+    Version: 1.1
     Python Version: 2.7
 """
 import random
