@@ -6,8 +6,7 @@
     Version: 1.0
     Python Version: 2.7
 """
-import time
-
+# Imports the swap method
 import Swap
 
 arrayLength = 0
@@ -18,7 +17,7 @@ def selectionSort(numberList):
     for i in range(len(numberList)):
 
         minimumIndex = i
-        print("Minimum index: " + str(minimumIndex))
+        print("\nMinimum index: " + str(minimumIndex))
 
         for l in range(i + 1, len(numberList)):
             if numberList[minimumIndex] > numberList[l]:
