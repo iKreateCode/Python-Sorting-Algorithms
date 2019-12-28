@@ -1,5 +1,5 @@
 """
-    File name: main.py
+    File name: SelectionSort.py
     Description: An implementation of selection sort with user input
     Author: Emaz Khan
     Date created: 22/12/2019
