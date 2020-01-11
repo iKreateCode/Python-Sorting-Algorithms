@@ -98,6 +98,4 @@ randomButton.grid(row=5, column=1)
 arrayListButton = Button(root, text="Reset", command=lambda: reset())
 arrayListButton.grid(row=5, column=3)
 
-
-
 root.mainloop()
